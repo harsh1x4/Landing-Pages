@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi-Landing-Page</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./assets/images/logo.png" alt="" class="logo"></a>
+            <div class="toggle-button">
+                <div class="menu-icon-wrapper">
+                    <div class="menu-icon-line half first"></div>
+                    <div class="menu-icon-line"></div>
+                    <div class="menu-icon-line half last"></div>
+                </div>
+            </div>
+            <ul class="navigation">
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Products</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">What's New</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Newsletter</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>I like</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eveniet aliquid veniam quibusdam quam
+                    culpa iure odio minima at velit nam sit dolorum commodi, asperiores eaque. Modi magni numquam rerum,
+                    tempore blanditiis fugiat corrupti ratione ipsam atque ullam dolor cumque ea odit quas molestias
+                    dolore adipisci minima, deleniti laborum ut!
+                </p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/images/pepsi001.png" alt="" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./assets/images/pepsi001.png" alt="" onclick="imgSlider('./assets/images/pepsi001.png');changeBgColor('#0062be')"></li>
+            <li><img src="./assets/images/pepsi002.png" alt="" onclick="imgSlider('./assets/images/pepsi002.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="./assets/images/pepsi003.png" alt="" onclick="imgSlider('./assets/images/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
